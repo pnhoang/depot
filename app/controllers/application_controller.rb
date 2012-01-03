@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   
+  @counter  
+  
   private 
   
   def current_cart
